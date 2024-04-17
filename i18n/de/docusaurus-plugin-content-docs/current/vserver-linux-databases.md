@@ -7,7 +7,7 @@ sidebar_label: Datenbank installieren
 
 ## Einführung
 
-Diese Anleitung beinhaltet Schritte für die Installation verschiedener Arten von Datenbanken. In diesem Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, es werden jedoch auch entsprechende Befehle für andere Linux-Distributionen angegeben, die wir auf unserer Website bereitstellen. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie du dich über SSH mit deinem Server verbinden kannst, schaue bitte hier nach: [Erstzugang (SSH)](https://zap-hosting.com/guides/docs/en/vserver_linux_ssh/).
+Diese Anleitung beinhaltet Schritte für die Installation verschiedener Arten von Datenbanken. In diesem Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, es werden jedoch auch entsprechende Befehle für andere Linux-Distributionen angegeben, die wir auf unserer Website bereitstellen. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie du dich über SSH mit deinem Server verbinden kannst, schaue bitte hier nach: [Erstzugang (SSH)](vserver-linux-ssh.md).
 
 ## Vorbereitung
 
@@ -49,7 +49,7 @@ Zuallererst musst du sicherstellen, dass die neueste MariaDB-Version installiert
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#Vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
 
 :::info
 Die Installation der MariaDB-Repos (Schritt oben) kann bei modernen Betriebssystemen wie Ubuntu 22.04 oder Debian 11 getrost ignoriert werden.
@@ -136,7 +136,7 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#Vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
 
 :::info
 Wenn dein Betriebssystem oben nicht aufgeführt ist, kannst du diesen Schritt überspringen.

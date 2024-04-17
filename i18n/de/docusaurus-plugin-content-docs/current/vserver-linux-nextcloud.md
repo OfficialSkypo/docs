@@ -1,11 +1,11 @@
 ---
 id: vserver-linux-nextcloud
 title: Installation von Nextcloud
-description: Informationen, wie du einen Nextcloud Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du einen Nextcloud Server auf deinem Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Nextcloud installieren
 ---
 
-## Was ist Nextcloud?
+## Einführung
 
 Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 2016 vom ehemaligen Owncloud-Gründer Frank Kalitschek aufgrund unterschiedlicher Auffassungen ins Leben gerufen wurde.
 
@@ -40,11 +40,7 @@ Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen d
 :::
 
 
-
-## Nextcloud einrichten
-
-
-### Vorbereitung
+## Vorbereitung
 
 Damit die Cloud auf einem Linux-Server installiert werden kann, muss eine Verbindung über einen SSH-Client hergestellt werden. Wenn du dir nicht sicher bist, wie man SSH benutzt, findest du hier eine Anleitung dazu: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
@@ -420,17 +416,17 @@ $AUTOCONFIG = array(
 </TabItem>
 </Tabs>
 
-### Installation
+## Installation
 
 Nun kann die eigentliche Installation von Nextcloud gestartet werden. Die Software muss heruntergeladen und entpackt werden:
 
 ```
-cd /var/www/nextcloud/
-wget https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip
+cd /var/www/
+wget https://download.nextcloud.com/server/releases/latest.zip
 apt-get install unzip
-unzip nextcloud-16.0.4.zip
+unzip latest.zip
 chown -R www-data:www-data nextcloud
-rm nextcloud-16.0.4.zip
+rm latest.zip
 ```
 
 Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installationsscript auszuführen. Der Zugriff erfolgt über den Browser mit folgender Adresse:
@@ -447,7 +443,7 @@ Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer 
 ![image](https://user-images.githubusercontent.com/13604413/159172341-efd5c39c-cf32-44d5-8518-51632d3fb475.png)
 
 
-### Absicherung und Sicherheit
+## Absicherung und Sicherheit
 
 
 **Setup Warnungen**
@@ -479,13 +475,13 @@ Eine gute Cloud sollte nur über eine SSL-Verschlüsselung zugänglich sein. Ohn
 ```
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
- DocumentRoot "/var/www/html/cloud"
+ DocumentRoot "/var/www/nextcloud"
  ServerName domain.tld
 
  ErrorLog ${APACHE_LOG_DIR}/error.log
  CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-<Directory /var/www/html/cloud/>
+<Directory /var/www/nextcloud/>
  Options +FollowSymlinks
  AllowOverride All
 
@@ -493,8 +489,8 @@ Eine gute Cloud sollte nur über eine SSL-Verschlüsselung zugänglich sein. Ohn
  Dav off
  </IfModule>
 
- SetEnv HOME /var/www/html/cloud
- SetEnv HTTP_HOME /var/www/html/cloud
+ SetEnv HOME /var/www/nextcloud
+ SetEnv HTTP_HOME /var/www/nextcloud
  Satisfy Any
 
 </Directory>

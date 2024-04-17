@@ -22,11 +22,7 @@ With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other se
 
 :::info
 **Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
-:::
->
-:::info
 - Debian 10
-
 - Debian 11
 :::
 
@@ -52,7 +48,7 @@ To install the GS/TS3 interface, you need to navigate to the navigation panel **
 
 The first time you call up the GS/TS3 interface, you will be taken to the user-friendly setup assistant. To set up the interface and link it to your server, it is first necessary to create an SSH key. This key is necessary for the website to establish a secure connection to the server. This makes it possible to set up, manage and control services such as game servers and Teamspeak 3 servers directly via the interface.
 
-Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. Optionally, you can also define a name for the key for overview purposes.
+Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. 
 
 
 ![img](https://user-images.githubusercontent.com/61839701/165696291-b5c31c89-3b4e-4099-b29c-bfda756b19a6.png)
@@ -93,7 +89,7 @@ In the next step, you have the option of selecting the IP address of the desired
 
 ![img](https://user-images.githubusercontent.com/61839701/165700364-b4b07d72-f7a5-47f6-bdf8-d9f8993a8cbf.png)
 
-Make sure that all the details are correct and meet your requirements. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
+Make sure that all the details are correct and meet your prerequisites. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
 
 
 
@@ -127,7 +123,7 @@ In the next step, you have the option of specifying the desired settings for you
 
 ![img](https://user-images.githubusercontent.com/61839701/165702011-e54549cc-4d83-4e86-b732-da3751c7c5a4.png)
 
-Make sure that all the information is correct and meets your requirements. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
+Make sure that all the information is correct and meets your prerequisites. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
 
 ![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 

@@ -109,9 +109,7 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 The **Live Console** offers you a real-time view of all current events on your server. Here you can see information about the activities of the players as well as possible error messages and system messages. This overview allows you to get a comprehensive view of what is happening on your server and to detect possible problems at an early stage.
 
-:::info
-Screenshot einfügen
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
 
 Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
 
@@ -137,15 +135,15 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 We also offer guides for your product. This includes for example the following guides: 
 
 | Guide        | Page                                                         |
 | ------------ | ------------------------------------------------------------ |
-| Become admin | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_becomeadmin) |
-| Install Mods | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_mods) |
-| Commands     | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_commands) |
+| Become admin | [View guide](7d2d-becomeadmin.md) |
+| Install Mods | [View guide](7d2d-mods.md) |
+| Commands     | [View guide](7d2d-commands.md) |
 <p style={{textAlign: 'center'}} >List updated last on 03.05.2023</p>
 
 
@@ -181,7 +179,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
 
@@ -213,7 +211,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](gameserver-ftpaccess.md) may help you.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
 

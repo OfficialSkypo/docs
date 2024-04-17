@@ -2,7 +2,7 @@
 id: domain-order
 title: Eine Domain bestellen
 description: Informationen zum Bestellprozess von Domains bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Eine Domain bestellen
+sidebar_label: Domain bestellen
 ---
 
 ## Bestellung einer Domain
@@ -14,10 +14,10 @@ Im Feld **meine-domain.de** kannst du nun nach deinem Domainnamen suchen und pr�
 ![image](https://user-images.githubusercontent.com/13604413/159175914-69b5a2c4-c456-40f1-9fa8-4a972ea2af7c.png)
 
 
-Um eine Domain mieten zu können müssen alle Felder wie Vorname, Nachname und Anschrift wahrheitsgemäß ausgefüllt werden da immer ein eindeutiger Domaininhaber hinterlegt sein muss. Andernfalls kann es sein dass die Domain nicht bereitgestellt werden kann.
+Um eine Domain mieten zu können, müssen alle Felder wie Vorname, Nachname und Anschrift wahrheitsgemäß ausgefüllt werden, da immer ein eindeutiger Domaininhaber hinterlegt sein muss. Andernfalls kann es sein, dass die Domain nicht bereitgestellt werden kann.
 
 :::info
-Die Daten des Domaininhabers sind seit in Kraft treten der DSGVO nicht mehr für jeden einsehbar. Lediglich der Registrar und Behörden können diese Daten bei Bedarf abrufen. 
+Die Daten des Domaininhabers sind seit in Krafttreten der DSGVO nicht mehr für jeden einsehbar. Lediglich der Registrar und Behörden können diese Daten bei Bedarf abrufen. 
 :::
 
 
@@ -27,14 +27,7 @@ Die Daten des Domaininhabers sind seit in Kraft treten der DSGVO nicht mehr für
 
 ## Nach der Bereitstellung
 
-### Nachdem deine Domain bereitgestellt wurde findest du diese auf der Startseite in deinem Interface.
+### Nachdem deine Domain bereitgestellt wurde, findest du diese auf der Startseite in deinem Interface.
 
 
-![image](https://user-images.githubusercontent.com/13604413/159175925-3ea6fbf5-e891-4ce4-85c7-71cdfa9fa82d.png)
-
-
-
-
-
-
- 
+![image](https://user-images.githubusercontent.com/13604413/159175925-3ea6fbf5-e891-4ce4-85c7-71cdfa9fa82d.png

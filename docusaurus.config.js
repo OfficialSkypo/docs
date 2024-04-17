@@ -1,14 +1,16 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZAP-Hosting Docs',
   tagline: 'If you want more POWER!',
-  favicon: '/img/favicon-32x32.webp',
+  favicon: '/img/favicon.ico',
   
   // Set the production url of your site here
   url: 'https://zap-hosting.com',
@@ -23,6 +25,8 @@ const config = {
   
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
+  onDuplicateRoutes: 'throw',
+  onBrokenAnchors: 'throw',
   
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -31,9 +35,96 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'de'],
   },
-  plugins: [[ require.resolve('docusaurus-lunr-search'), {
-    languages: ['en', 'de'] // language codes
-  }]],
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/srcDark.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#1b1b1d',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/srcDark.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/srcDark.png',
+            color: '#18e888',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/srcDark.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/docs/contribution-guides',
+            from: '/docs/contribution-submission',
+          },
+          {
+            to: '/docs/contribution-guides-guidelines',
+            from: '/docs/contribution-guidelines',
+          },
+          // Redirect from multiple old paths to the new path
+          /*{
+            to: '/docs/newDoc2',
+            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          },*/
+        ],
+      },
+    ],
+    [ 
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['en', 'de'] // language codes
+      }
+    ]
+  ],
   
   presets: [
     [
@@ -41,9 +132,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/zaphosting/docs/tree/master/',
-          editLocalizedFiles: true
+          editLocalizedFiles: true,
+          showLastUpdateTime: true
         },
         blog: false,
         theme: {
@@ -57,12 +149,18 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
     // Replace with your project's social card
-    //image: 'img/docusaurus-social-card.jpg',
+    //image: 'img/docusaurus-default/docusaurus-social-card.jpg',
     image: undefined,
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: 'ZAP-Hosting Docs',
       logo: {
-        href: "/docs/firststeps-register",
+        href: "/docs/welcome",
         alt: 'ZAP-Hosting',
         src: 'img/src.png',
         srcDark: 'img/srcDark.png'
@@ -103,6 +201,29 @@ const config = {
           sidebarId: 'voiceserverbotSidebar',
           position: 'left',
           label: 'Voicebot & Voiceserver',
+        },
+        {
+          type: 'html',
+          position: 'right',
+          className: 'externalLink',
+          value: (() => {
+            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
+              default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
+            }
+          })(),
+        },
+        {
+          type: 'html',
+          position: 'right',
+          className: 'externalLink',
+ 
+          value: (() => {
+            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "de": return '<a href="https://zap-hosting.com/de/">Zurück zu ZAP-Hosting ⤾</a>';
+              default: return '<a href="https://zap-hosting.com/en/">Back to ZAP-Hosting ⤾</a>';
+            }
+          })(),
         },
         {
           type: 'localeDropdown',
@@ -227,4 +348,4 @@ const config = {
   }),
 };
 
-module.exports = config;
+export default config;

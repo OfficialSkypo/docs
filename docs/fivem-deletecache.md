@@ -4,42 +4,47 @@ title: Empty Cache
 description: Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
 ---
-## Overview
 
-First of all we need our data for the FTP server.
-We find this under the tab **Tools**.
 
-![image](https://user-images.githubusercontent.com/13604413/159137752-6a09a621-867e-4c4f-8d9e-f2cd498d9465.png)
 
-Here we have now our data which we only have to enter into Filezilla.
+## Simple Method
 
-## FTP connection
+Deleting cache on your FiveM gameserver is really simple. Firstly, head over to your gameserver's webinterface. Locate and open the **Settings** section on your gameserver's webinterface.
 
-Now we can connect to our server using FTP.
+![image](https://github.com/zaphosting/docs/assets/42719082/bbdfc816-6160-4e2a-b9ee-74feca4663ed)
+
+Next, scroll to the bottom of the page to find multiple buttons under the **Actions** subsection. Here, press the **Delete Cache Files** button in order to clear your gameserver's cache.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/f917d7bf-f436-4e6c-b53d-bd2d2df1e4c0)
+
+:::note
+This will immediately restart your server in order to clear the cache files, so make sure you are prepared to do this.
+:::
+
+Your server will now restart and clear its cache. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your FiveM gameserver!
+
+## Alternative Method
+
+### Accessing via FTP
+
+Fistly, you need to connect to your server using FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137768-9431a8d8-afa2-47a7-960b-7bcd700c9627.png)
 
-Just enter here the data we have just searched for.
+### Locate Cache
 
-## Locate Cache
+In the next step, you have to find the cache folder and delete it.
 
-Now you have to find the folder and delete it.
-To do this we proceed as follows:
-
-We follow this path: **user/gta5-fivem/server-data**
-Once there, we also find the *Cache* folder.
+You should follow this path: `/gXXXXXX/gta5-fivem/server-data/cache` in order to directly access the cache folder.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
 
-## Clear Cache
+### Clear Cache
 
-Now we just have to clear/empty the cache
+Now you have to simply clear/empty the cache. To do this you should click on the **Cache** folder and then on **Files**.
 
-To do this we click on the folder *Cache* and then on *Files*.
-
-Now we mark all folders and delete them afterwards.
+Now you should mark all of the folders that are present in the **Cache** folder and delete them.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137786-b7a63449-4d89-4f77-a06c-9edd87bdd85e.png)
 
-Once you have done this, the cache has been successfully cleared.
-When the server is restarted, the server will rewrite the cache.
+Now proceed to restart your FiveM server for this to take effect. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your FiveM gameserver!

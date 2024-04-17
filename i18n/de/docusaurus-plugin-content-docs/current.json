@@ -19,10 +19,6 @@
     "message": "Sicherheit",
     "description": "The label for category Security in sidebar guidesSidebar"
   },
-  "sidebar.guidesSidebar.category.Partner": {
-    "message": "Partner",
-    "description": "The label for category Partner in sidebar guidesSidebar"
-  },
   "sidebar.gameserverSidebar.category.General": {
     "message": "Allgemein",
     "description": "The label for category General in sidebar gameserverSidebar"
@@ -50,10 +46,6 @@
   "sidebar.gameserverSidebar.category.Bungeecord": {
     "message": "Bungeecord",
     "description": "The label for category Bungeecord in sidebar gameserverSidebar"
-  },
-  "sidebar.gameserverSidebar.category.Forge": {
-    "message": "Forge",
-    "description": "The label for category Forge in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.FiveM": {
     "message": "FiveM",
@@ -308,7 +300,87 @@
     "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Partner Program",
+    "message": "Partnerprogramm",
     "description": "The label for category Partner Program in sidebar guidesSidebar"
+  },
+  "sidebar.gameserverSidebar.category.CS 1.6": {
+    "message": "CS 1.6",
+    "description": "The label for category CS 1.6 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.CS:S": {
+    "message": "CS:S",
+    "description": "The label for category CS:S in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.CS2 (NEW)": {
+    "message": "CS2 (NEW)",
+    "description": "The label for category CS2 (NEW) in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.General": {
+    "message": "Allgemein",
+    "description": "The label for category General in sidebar guidesSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Palworld": {
+    "message": "Palworld",
+    "description": "The label for category Palworld in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Enshrouded": {
+    "message": "Enshrouded",
+    "description": "The label for category Enshrouded in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Open.mp": {
+    "message": "Open.mp",
+    "description": "The label for category Open.mp in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category Guides in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Blogs": {
+    "message": "Blogs",
+    "description": "The label for category Blogs in sidebar guidesSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Services": {
+    "message": "Services",
+    "description": "The label for category Services in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Security": {
+    "message": "Security",
+    "description": "The label for category Security in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Gameserver services": {
+    "message": "Gameserver services",
+    "description": "The label for category Gameserver services in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Sunkenland": {
+    "message": "Sunkenland",
+    "description": "The label for category Sunkenland in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.CS2": {
+    "message": "CS2",
+    "description": "The label for category CS2 in sidebar gameserverSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.Discord Bot": {
+    "message": "Discord Bot",
+    "description": "The label for category Discord Bot in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.TS3MusicBot": {
+    "message": "TS3MusicBot",
+    "description": "The label for category TS3MusicBot in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Plugins / Mods": {
+    "message": "Plugins / Mods",
+    "description": "The label for category Plugins / Mods in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Vein": {
+    "message": "Vein",
+    "description": "The label for category Vein in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Wurm Unlimited": {
+    "message": "Wurm Unlimited",
+    "description": "The label for category Wurm Unlimited in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Terratech Worlds": {
+    "message": "Terratech Worlds",
+    "description": "The label for category Terratech Worlds in sidebar gameserverSidebar"
   }
 }

@@ -1,43 +1,47 @@
 ---
 id: fivem-steam-web-api-key
-title: Steam Web API Key einrichten
-description: Anleitung, wie du bei deinem FiveM Server einen Steam Web API Key einrichtest - ZAP-Hosting.com Dokumentation
+title: Steam Web API Key setup
+description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Steam Web API Key
 ---
 
+## Einführung
+
+Ein Steam-Web-API-Schlüssel hat wichtige Funktionen für FiveM. Dazu gehört die Authentifizierung durch den API-Schlüssel, wenn Steam als Identifikator von verschiedenen Skripten und/oder Ressourcen verwendet wird.
+
+
+
 ## Voraussetzungen
 
-Für FiveM hat ein Steam Web API Key wichtige nutzen. Dazu gehört die Authentifizierung durch den API Key, wenn Steam von verschiedenen Skripten und/oder Ressourcen als Identifier benutzt wird.
-
-Damit ein API Key angefordert werden kann, wird ein nicht-limitierter Steam Account benötigt. Limitierte Steam Accounts haben nur beschränkten Zugriff auf die Funktionen von Steam, so ist es ohne vollen Zugriff auch nicht möglich einen API Key anzufordern. Um deinen Account und dessen Funktionen freizuschalten, müssen mindestens **5,00 USD** im Steam-Shop ausgegeben worden sein.
+Um einen API-Schlüssel anzufordern, ist ein nicht eingeschränkter Steam-Account erforderlich. Eingeschränkte Steam-Konten haben einen eingeschränkten Zugang zu den Funktionen von Steam, sodass es ohne vollen Zugang nicht möglich ist, einen API-Schlüssel anzufordern. Du musst mindestens **5,00 USD** im Steam-Store ausgeben, um dein Konto und dessen Funktionen freizuschalten.
 
 
-## API Key anfordern
 
-Jetzt, wo du einen Steam Account besitzt und bereits mehr als **5,00 USD** im Shop ausgegeben hast, solltest du in der Lage sein, deinen eigenen Steam-API-Key anzufordern. Melde dich dazu [hier](https://steamcommunity.com/dev/apikey) mit deinem Steam-Kontonamen und Passwort an.
+## Anfordern eines API-Schlüssels
+
+Nachdem du dein Steam-Konto eingerichtet hast, solltest du in der Lage sein, deinen eigenen Steam-Web-API-Schlüssel anzufordern. Dazu musst du dich [auf der Steam-Website] (https://steamcommunity.com/dev/apikey) mit deinem Steam-Kontonamen und Passwort anmelden.
 
 ![image](https://user-images.githubusercontent.com/115637675/195389732-939c0a8e-f011-4242-8048-97bb51122a58.png)
 
-Nun musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam-API bestätigen und auf *"Registrieren"* klicken.
-Bei dem Domainnamen handelt es sich um deine **Server IP** *(ohne Port)*, trage diese also dort ein.
+Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam Web API bestätigen und auf die Schaltfläche **Registrieren** klicken. Die Domain sollte auf deine **Server IP** *(ohne Port)* eingestellt sein, also gib diese dort an. 
 
 ![image](https://user-images.githubusercontent.com/115637675/195401735-0615a6e3-ea01-4a77-97ce-f91d3d753bee.png)
 
-Wenn alles gut gegangen ist, solltest du, wie unten gezeigt, deinen eigenen Steam Web API Key sehen.
+Wenn alles erfolgreich war, solltest du deinen eigenen Steam-Web-API-Schlüssel sehen können, wie unten dargestellt.
 
 ![image](https://user-images.githubusercontent.com/115637675/195397282-c79aff45-2e38-49f9-bf1a-3efd563b3294.png)
 
 
-## API Key einfügen
 
-Da wir nun unseren API Key haben, müssen wir diesen nur noch in die **server.cfg** einfügen.
-Öffne dazu die *server.cfg* über **Configs**, und füge den Key bei dem Eintrag **set steam_webApiKey ""** ein.
+## Aktivierung eines API-Schlüssels
 
-![image](https://user-images.githubusercontent.com/115637675/195388724-bdbf700a-a636-45d2-9a21-92b1e2af304a.png)
+Jetzt, wo du deinen Steam Web API Key hast, musst du ihn in deiner Serverkonfigurationsdatei (`server.cfg`) bei deinem FiveM Gameserver ablegen. Du kannst auf deine server.cfg Konfigurationsdatei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen. 
 
-Sollte dieser Eintrag nicht bei dir nicht vorhanden sein, kannst du diesen ganz leicht im Nachhinein einfügen:
+![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
+
+Suchen eine vorhandene Zeile oder erstellen eine neue, falls sie nicht existiert, und füge folgendes hinzu, wobei du `YOUR_KEY_HERE` durch den von dir erzeugten Schlüssel ersetzt:
 ```
-set steam_webApiKey "KEYS"
+set steam_webApiKey "YOUR_KEY_HERE"
 ```
 
-Starte deinen Server im Anschluss einmal neu, um die Änderung zu übernehmen. 
+Abschließend kannst du deinen Server neu starten. Dein Steam Web API Key wird geladen, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich einen Steam Web API Key zu deinem FiveM Gameserver hinzugefügt!

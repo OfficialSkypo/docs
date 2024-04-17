@@ -5,20 +5,22 @@ description: Information on how to install and set up a V-Rising Server on your 
 sidebar_label: V-Rising
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 # Installing a dedicated server for V-Rising
 
 :::info
-:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](https://zap-hosting.com/guides/docs/en/dedicated_windows/).
+:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](dedicated-windows.md).
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/to2ghqNpGLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="to2ghqNpGLA" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Basic Information: 
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 4GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
 
 ## Step 1 Create a folder for V-Rising
 
-First, you need to connect to your server by using [RDP](https://zap-hosting.com/guides/docs/en/vserver_windows_userdp/). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
+First, you need to connect to your server by using [RDP](vserver-windows-userdp.md). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
 In this example, we will create a new Folder on our Desktop.
 This can be done by making a right mousclick.
 Then choose "New -> Folder".
@@ -27,7 +29,7 @@ Then choose "New -> Folder".
 
 You can name it whatever you want. In our example we will name it "VRising"
 
-## Step 2 Download Steamcmd to your Windows server
+## Step 2 Download SteamCMD to your Windows server
 
 Open the browser and go to the [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip). That will download SteamCMD for Windows to your Server.
 
@@ -101,7 +103,7 @@ Which are located in the VRisingServer_Data\StreamingAssets\Settings Directory.
 
 In the ServerHostSettings.json File you can make general changes.
 Like defining the Ports, a Server Description, the SaveInterval and for example the Gameserver Password.
-I have changed the Name from the Server in there to "ZAP Hosting Test Server".
+I have changed the Name from the Server in there to "ZAP-Hosting Test Server".
 
 To start the Server you can make a doubleclick on the start_server_example.bat File.
 
@@ -115,6 +117,6 @@ If the ports were forwarded correctly in the next step, you can find the Server 
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 9876 and 9877 must be released for the protocol TCP AND UDP. 9876 is the game server port and 9877  is the Query Port.
-How to enable ports on Windows, [we explain in this guide](https://zap-hosting.com/guides/docs/en/vserver_windows_port/). 
+How to enable ports on Windows, [we explain in this guide](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 

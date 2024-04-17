@@ -1,11 +1,12 @@
 ---
 id: vserver-linux-mastodon
 title: Installation von Mastodon
-description: Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du einen Mastodon Server auf deinem Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mastodon installieren
 ---
 
-## Was ist Mastodon?
+## Einführung
+
 Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko und der von ihm in Jena gegründeten und in Berlin ansässigen Mastodon gGmbH entwickelt wird.
 
 ![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)
@@ -17,7 +18,7 @@ Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anl
 :::
 
 ## Voraussetzungen
-Für das aufsetzen einer Mastodon Instanz, benötigst du folgendes:
+Für das Aufsetzen einer Mastodon Instanz, benötigst du Folgendes:
 - Domain
 - Linux basierten Server
 - E-Mail Server
@@ -30,7 +31,7 @@ Danach verbinden wir uns mit SSH und führen folgenden Befehl aus:
 apt update && apt upgrade -y
 ```
 
-Als nächstes installieren wir die benötigten Repositories:
+Als Nächstes installieren wir die benötigten Repositoriess:
 ```bash
 # System Repositories
 apt install -y curl wget gnupg apt-transport-https lsb-release ca-certificates
@@ -76,7 +77,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exec bash
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
-Nach der Installation können wir nun Ruby installieren. In diesem Schritt werden wir ebenfalls Bundler installieren.
+Nach der Installation können wir jetzt Ruby installieren. In diesem Schritt werden wir ebenfalls Bundler installieren.
 ```bash
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.3
 rbenv global 3.0.3
@@ -101,7 +102,7 @@ Nun müssen wir erneut in das Mastodon Nutzerprofil wechseln:
 ```bash
 su - mastodon
 ```
-Jetzt klonen wir Git mittels dem folgenden Befehl:
+Jetzt klonen wir Git mittels des folgenden Befehles:
 ```bash
 git clone https://github.com/tootsuite/mastodon.git live && cd live
 git checkout $(git tag -l | grep -v 'rc[0-9]*$' | sort -V | tail -n 1)

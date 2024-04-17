@@ -5,7 +5,7 @@ description: Information on how to create and use caves on servers for Don't Sta
 sidebar_label: Create Caves
 ---
 
-## Requirements for Caves
+## Prerequisites for Caves
 
 In order to use caves at Don't Starve Together, two servers ordered through us are required. One server would be the "master" which is used for the upper world and the second server would be the "slave" which is used solely for the caves. Which server you make the "master" and which one becomes the "slave" is decided by the configurations of the server.ini and cluster.ini.
 
@@ -90,7 +90,7 @@ cluster_key = deinclusterkey
 
 If all configs have been set correctly, a new world must be generated for the slave server. A new file is required so that the caves are created correctly.
 
-Use this [FTP-Access](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
+Use this [FTP-Access](gameserver-ftpaccess.md) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
 A new file with the name  "*worldgenoverwrite.lua*" is now created in this directory.
 This file is filled with the following content.
 

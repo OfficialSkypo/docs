@@ -1,61 +1,58 @@
 ---
 id: fivem-licensekey
 title: Add your own license key (Patreon) to the server
-description: Information on how to create your own license key (from Patreon) for FiveM servers from ZAP-Hosting and add it to your server - ZAP-Hosting.com documentation
+description: Information on how to create your own custom license key (from Patreon) and add it to your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 ---
 
-## Why would I need a key?
+## Why would you need a custom key?
 
-A key is required if, for example, the [FiveM Patreon](https://patreon.com/fivem) benefits were purchased to unlock Onesync, or if the Nucleus interface shows the wrong game server.
+You would require your own license key, primarily if you wish to use your [FiveM Patreon](https://www.patreon.com/fivem/posts) benefits including items such as Onesync, coloured server name and more. Alternatively, you may want a custom license key to change the listed owner on the server list or if you receive an error that the automatically generated ZAP key is invalid.
 
 ## Preparation
-To create your own license key, we first log in at https://keymaster.fivem.net. If no FiveM Forum account has been created yet, one must be created here.
 
-![image](https://user-images.githubusercontent.com/13604413/159167431-44672d55-c5a2-458c-9849-b2f7275d3cdf.png)
+To create your own license key, you should first login to the [Cfx.re Keymaster website](https://keymaster.fivem.net). If you do not have an existing Cfx.re Forum account, you must create one in order to to be able to login and proceed. 
 
-After we are logged in, we click on "New" at the top, which takes us to the Create license key menu:
+![image](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
 
-![image](https://user-images.githubusercontent.com/13604413/159167435-0e204772-57bf-406f-ba33-e13737fad42d.png)
+After you are logged in, click on the **New server** button on the left navigation bar, which will take you to the key creation page:
 
+![image](https://github.com/zaphosting/docs/assets/42719082/8562c10c-3453-4fb8-bb1f-ed65219580a9)
 
-## Specify data
+## Configuration
 
-Now we can fill the data as follows:
+### Specify data
 
-- **Label:** Description of the server, e.g. the name.
+You must now fill the requested data as follows:
+- **Label:** Description label, e.g. the name.
 - **Server IP Address:** The server IP, without port
-- **Server Type:** The server type, in our case "Server Provider (rented server)"
+- **Server Type:** The server type, in your case "Server Provider (rented server)"
 
+### Enter IP address
 
-### Enter IP
+You will find the IP of your server on your gameserver's webinterface panel, or in the **FTP-Browser** section on the webinterface.
 
-You will find the IP of your server in the "FTP-Browser" tab
-
-You need to enter the IP without port.
-
-## Generate Key
-
-After all our data is filled, the Keymaster page should look something like this:
-
-![image](https://user-images.githubusercontent.com/13604413/159167479-a5964ac5-a6de-43a9-bd12-a459bb94e002.png)
-
-Now we click on "Generate", a key will now be generated.
-
-On the homepage of the keymaster we can now see our new key:
-
-![image](https://user-images.githubusercontent.com/13604413/159167482-70076a07-9f9a-48cf-ad21-68a0907f5d87.png)
-
-## Configure Key
-
-:::info
-on txAdmin servers the key must be defined in server.cfg at sv_licensekey!
+:::note
+You need to enter the IP **without** the port.
 :::
 
-Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
+## Generate license key
 
-![image](https://user-images.githubusercontent.com/13604413/159167488-29414748-f743-47ff-a52e-8d6e7154090d.png)
+Once you have inputted all of the necessary information, you should be able to generate a key. Your page should look similar to below. Now, press the **Generate** button and a key will be created.
 
-Now we save the settings and restart the server.
+![image](https://github.com/zaphosting/docs/assets/42719082/5a543db9-e604-451f-9426-52c986fd61d2)
 
-Done! The key is now applied.
+Return back to the home page, and you will be able to see your newly registered license key.
+
+## Add license key
+
+Finally, you must head over to the **Settings** section on your gameserver's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
+
+:::info
+**For txAdmin:**
+If you are using txAdmin version of the gameserver, you must instead define the key under the `sv_licensekey` parameter. You can access your `server.cfg` file either via your txAdmin interface panel, the **Configs** section on your gameserver's webinterface or directly through FTP access.
+:::
+
+After you have set your custom license key, proceed to restart your FiveM server. You have successfully set a custom license key for your FiveM gameserver!

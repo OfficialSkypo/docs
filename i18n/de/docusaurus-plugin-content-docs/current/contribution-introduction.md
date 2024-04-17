@@ -1,40 +1,58 @@
 ---
 id: contribution-introduction
-title: ZAP Docs Beitragsprogramm
-description: Information on the ZAP-Hosting docs contribution program - ZAP-Hosting.com Dokumentation
+title: ZAP-Hosting Beitragsprogramm
+description: Informationen über das ZAP-Hosting Beitragsprogramm - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
 ---
 
-![Main Banner](https://github.com/zaphosting/docs/assets/42719082/d1b7ad03-58b4-4fc6-9544-a78a1ed0486d)
+![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/jYiCeya8rDqWB3A/preview)
 
-## ZAP-Hosting Docs Beitragsprogramm
+## Einleitung
 
-Wir glauben an die Kraft der Community, weshalb wir unser eigenes ZAP-Hosting Doku-Beitragsprogramm betreiben, das es unserer Community ermöglicht, hochwertige, praktische und leicht zugängliche Anleitungen zu einer Vielzahl von Themen zu erstellen und anderen Mitmenschen weltweit zu helfen. Als Belohnung gibt es natürlich auch ZAP-Coins!
+Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
 
-Unser Beitragsprogramm nimmt derzeit nur Beiträge in englischer Sprache an. Um das Urheberrecht einzuhalten, können wir keine Inhalte aus fremden Quellen akzeptieren. Alle Beiträge, die unter unserem Beitragsprogramm veröffentlicht werden, müssen von dir selbst verfasst worden sein.
+Für alle Inhalte, die im Rahmen dieses Programms erstellt werden, gibt es Belohnungen in Form von ZAP-Coins - ein toller Vorteil! Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Anleitung für Beitrags-Belohnungen](contribution-rewards.md).
 
+Unser Programm nimmt derzeit Beiträge in **Englisch** an.
 
+## Was qualifiziert für dieses Programm?
 
-## Was kommt für dieses Programm infrage?
+Wir freuen uns, dass wir unser Programm aufgrund des großen Engagements und Feedbacks aus der Community um neue Bereiche erweitert haben. Diese Bereiche werden im Folgenden kurz vorgestellt, zusammen mit einem Link zu der entsprechenden Anleitung-Seite, auf der du weitere Informationen finden kannst.
 
-Unser Beitragsprogramm akzeptiert derzeit sowohl Aktualisierungen und Erweiterungen bestehender Inhalte als auch neue Seiten und Inhalte, die von dir zur Dokumentation hinzugefügt werden. Die Vergütung für deinen Beitrag hängt von einigen Faktoren ab, vor allem aber von der Quantität und Qualität der von dir erstellten Inhalte und Änderungen. Für die Erstellung einer neuen Seite in unserer ZAP-Hosting-Dokumentation kannst du bis zu 75 € in ZAP-Münzen verdienen!
+### ZAP Guides - Erstellen und Aktualisieren von Anleitungen
 
-Bitte sieh dir die anderen Seiten in diesem Abschnitt an, um den Prozess des Beitragens, unsere Richtlinien und die Belohnungen im Detail zu verstehen, bevor du einen Beitrag leistest.
+Im Bereich ZAP Guides geht es um die Erstellung von Inhalten für unsere Guides auf den offiziellen [ZAP-Hosting Docs](https://zap-hosting.com/guides/). Dabei geht es um die Erstellung ganz neuer Anleitungen, aber auch um Aktualisierungen und Erweiterungen bestehender Anleitungen, wenn dies notwendig ist.
 
+Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Guides Process Guide](contribution-guides.md) erfährst du mehr.
 
+### ZAP Blogs - Blogbeiträge schreiben
+
+Wir freuen uns, Blogbeiträge als neuen Bereich für unser Beitragsprogramm vorstellen zu können. Bei dieser spannenden Möglichkeit schreibst du deine eigenen informativen Blogbeiträge für unseren offiziellen [ZAP-Hosting.com Blog](https://zap-hosting.com/en/blog/).
+
+Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In unserem [Blogs Process Guide](contribution-blogs.md) erfährst du mehr.
 
 ## Für wen ist dieses Programm gedacht?
 
-Das Beitragsprogramm ist für jeden zugänglich, der sein Wissen und seine Erfahrung mit der Community teilen möchte! Wir suchen aktiv nach engagierten Autoren, die über umfassende technische Fähigkeiten verfügen und sich auf dem jeweiligen Gebiet gut auskennen. Vor allem aber suchen wir nach Autoren, die sich engagieren und gerne mit unserem ZAP-Hosting Docs-Team zusammenarbeiten, um deren Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten.
+Das Beitragsprogramm ist für jeden zugänglich, der sein Wissen und seine Erfahrung mit der Gemeinschaft teilen möchte! Wir suchen aktiv nach engagierten Autoren, die über gute technische Fähigkeiten verfügen und sich in ihrem jeweiligen Fachgebiet auskennen. Vor allem aber suchen wir nach Autoren, die sich engagieren und gerne mit unserem ZAP-Hosting Contributions Team zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten.
 
-Bist du daran interessiert, dich an der Konversation und der Zusammenarbeit mit anderen gleichgesinnten Menschen zu beteiligen? Trete gerne unserem [Discord Server](https://discord.com/invite/zaphosting) bei und nutze **#Customise Community**, um dir die Contributor-Rolle zuzuweisen, um über die neuesten Änderungen auf dem Laufenden zu bleiben, mit anderen Mitwirkenden zu kommunizieren und zu kollaborieren.
+Bist du daran interessiert, dich an der Konversation zu beteiligen und mit anderen Gleichgesinnten zusammenzuarbeiten? Dann melde dich auf unserem [Discord Server](https://discord.com/invite/zaphosting) an und benutze den Kanal **#Customise Community**, um dir die Beitragsrolle zuzuweisen, damit du über die neuesten Änderungen auf dem Laufenden bleibst, mit anderen Beitragszahlern kommunizierst und zusammenarbeitest!
 
+## Urheberrecht und Allgemeine Geschäftsbedingungen
 
+Während der Teilnahme an unserem ZAP-Hosting-Beitragsprogramm musst du dich an unsere Allgemeinen Geschäftsbedingungen und Anforderungen halten. Diese sind nicht verhandelbar und müssen befolgt werden, damit du an unserem Beitragsprogramm teilnehmen kannst. Wenn wir der Meinung sind, dass du gegen eine unserer Bedingungen verstoßen hast, kann es sein, dass deine Arbeit nicht genehmigt wird und du dich somit nicht für unser Beitragsprogramm qualifizierst. Alle endgültigen Entscheidungen liegen im Ermessen des ZAP-Hosting Beitragsteams.
 
-## Bereitstellung von Dienstleistungen
+**Wichtige Informationen:**
+- Du stimmst zu, alle exklusiven Rechte am geistigen Eigentum deiner Kreation an die ZAP-Hosting GmbH & Co KG zu übertragen. Diese Übertragung wird bestätigt, sobald du deine Zahlung erhalten hast.
+- Um die Urheberrechtsgesetze einzuhalten, können wir keine Inhalte aus anderen Quellen akzeptieren. Alle Inhalte, die im Rahmen unseres Beitragsprogramms erstellt werden, **müssen Originalwerke** sein, die von **Du** erstellt wurden.
+- Die unerlaubte Nutzung von KI/generativen Werkzeugen und/oder anderem geistigen Eigentum ist nicht erlaubt (dazu gehören unter anderem Bilder, audiovisuelle Medien, schriftliche Inhalte und/oder anderes geistiges Eigentum, das hier nicht ausdrücklich genannt ist, ohne ausdrückliche Genehmigung der Rechteinhaber).
+- Alle Spielinhalte und Marken sind das Eigentum der jeweiligen Inhaber. Alle Inhalte auf dieser Seite sind Eigentum der ZAP-Hosting GmbH & Co KG.
 
-Bei Bedarf und offensichtlicher Notwendigkeit stellen wir die Dienste, die zur Erstellung einer Anleitung benötigt werden, für einen begrenzten Zeitraum zur Verfügung. Damit wollen wir auch denjenigen die Möglichkeit geben, Anleitungen zu Themen zu erstellen, die im Moment keinen aktiven Dienst dafür haben. Die Beantragung eines Dienstes kann während des Einreichungsprozesses durchgeführt werden. 
+Unsere vollständigen Geschäftsbedingungen für unser Beitragsprogramm kannst du [hier](contribution-terms.md) abrufen.
 
-Die Bereitstellung hängt von einigen Faktoren ab. So wird z.B. die Aktivität deines ZAP-Hosting-Accounts ausgewertet, wie aktiv du bereits hinsichtlich der Beitragsleistung von Docs warst und ob eine Bereitstellung durch uns für den geplanten Inhalt zwingend notwendig ist. 
+## Bereitstellung von temporären Diensten
 
-Wenn ein Service bereitgestellt wird, wird er dir für einen begrenzten Zeitraum kostenlos zur Verfügung gestellt. Die Bereitstellung ist auf 1-3 Tage begrenzt, je nach Umfang des Inhalts und der benötigten Dienstleistung.
+Auf Anfrage und bei Bedarf können wir Dienste, die zur Erstellung eine Anleitung oder eines Blogbeitrags benötigt werden, für einen begrenzten Zeitraum bereitstellen. Durch die Bereitstellung von Servern wollen wir die Zugänglichkeit zu notwendigen Produkten verbessern, damit Menschen über Themen schreiben können, für die sie vielleicht keinen aktiven Server bei uns haben.
+
+Du kannst einen Service über den jeweiligen Anmeldeprozess, den du verwendest, unter einer der Fragen anfordern.
+
+Die Bereitstellung hängt von ein paar Faktoren ab. Zum Beispiel wird die Aktivität deines ZAP-Hosting-Kontos bewertet, wie aktiv du bereits in Bezug auf das Beitragsprogramm warst und ob eine Bereitstellung durch uns für den geplanten Inhalt notwendig ist. Wenn ein Dienst bereitgestellt wird, wird er dir für einen begrenzten Zeitraum kostenlos zur Verfügung gestellt. Die Bereitstellung ist je nach Umfang des Inhalts und des benötigten Dienstes auf wenige Tage begrenzt.

@@ -8,16 +8,12 @@ sidebar_label: Server configuration
 
 
 
-## Server configuration
+## Introduction
 
 The Teamspeak server can be configured individually. In the following we will explain how you can configure your server. We will explain how you can customize general settings such as the server name, icon, banner, user permissions, channel and server group permissions. 
 
 
 ## General
-
-The server can be configured via the web interface and directly in the Teamspeak client itself, as long as administrator permissions have already been assigned. If you haven't done this yet and don't know how to do it, check out the following guide: [Teamspeak Become Admin](https://zap-hosting.com/guides/docs/de/teamspeak_becomeadmin/) 
-
-
 
 **Webinterface**
 

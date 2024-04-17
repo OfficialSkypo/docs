@@ -1,9 +1,13 @@
 ---
 id: terraria-firststeps-dashboard
-title: Dashboard overview
+title: Terraria Dashboard Overview
 description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
+
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 
 
@@ -12,6 +16,8 @@ sidebar_label: Dashboard
 You are interested in a **Terraria server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Terraria server** is optimally adapted to your needs and that you get the most out of the available options.
+
+<YouTube videoId="3k7AySyv0S4" title="Terraria server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 
@@ -108,23 +114,6 @@ In this section you will find an overview of the interruptions history of the ho
 In case you still have unanswered questions, we recommend that you first take a look at our Questions & Answers (FAQ) category. There we try to answer frequently asked questions and concerns comprehensively. This can provide you with valuable information and possibly already offer a solution to your concern.
 
 
-
-### ZAP-Hosting Documentation
-
-We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
-
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide             | Page                                                         |
-| ----------------- | ------------------------------------------------------------ |
-| Connect to server | [View guide](https://zap-hosting.com/guides/docs/en/terraria_firststeps_connect) |
-<p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
-
-
-
-
 ## Settings
 
 In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
@@ -161,7 +150,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YBQHZYYsF8rreQx/preview)
 
@@ -195,7 +184,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](gameserver-ftpaccess.md) may help you.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 

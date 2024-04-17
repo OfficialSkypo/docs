@@ -24,8 +24,8 @@ Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks e
 :::info
 Um das GS/TS3 Interface erfolgreich zu installieren, ist es wichtig sicherzustellen, dass dein Server eines der folgenden unterstützten Betriebssysteme installiert hat:
 
-Debian 10
-Debian 11
+- Debian 10
+- Debian 11
 :::
 
 
@@ -52,7 +52,7 @@ Beim ersten Aufruf des GS/TS3 Interface gelangst du zum benutzerfreundlichen Ein
 
 
 
-Dort angelangt muss nun der SSH-Schlüssel angelegt werden. Klicke dazu auf den **SSH-Key generieren** Button und füge den Schlüssel im Anschluss hinzu, in dem du auf den **Key hinzufügen** Button klickst. Optional kannst du ebenfalls noch einen Namen für den Schlüssel zur Übersichtzwecken definieren. 
+Dort angelangt muss nun der SSH-Schlüssel angelegt werden. Klicke dazu auf den **SSH-Key generieren** Button und füge den Schlüssel im Anschluss hinzu, in dem du auf den **Key hinzufügen** Button klickst. 
 
 
 ![](https://user-images.githubusercontent.com/61839701/165696223-4920716e-048b-4dac-a4b2-9ffa74b97d07.png)

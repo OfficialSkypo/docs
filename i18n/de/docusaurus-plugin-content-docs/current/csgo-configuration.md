@@ -5,15 +5,25 @@ description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten
 sidebar_label: Server Konfiguration
 ---
 
-## Server Konfiguration
 
-Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Config-Dateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
+
+:::caution
+**Counter-Strike: Global Offensive** has now been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/).  Das kann sich allerdings jederzeit ändern, falls Valve dies unterbindet. Wir empfehlen zeitnah auf die neue Version umzusteigen. 
+:::
+
+
+
+## Einführung
+
+Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Konfigurationsdateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
 
 Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXX3/csgo/csgo/cfg/** verwaltet werden. 
 
 
 
-### Allgemeine Konfiguration im Interface (Einstellungen)
+## Konfiguration
+
+### Konfiguration im Interface (Einstellungen)
 
 Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/Gamemode, Mapgroup, Tickrate und mehr vornehmen. 
 
@@ -25,7 +35,7 @@ Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/G
 
 Gameserver Login Tokens (GSLTs) ist ein Verfahren, welches Steam als Schutzmaßnahme implementiert hat. Um Gameserver von gewissen Steam Games (hauptsächlich Source-Games) zu betreiben ist es zwingend notwendig einen Token zu generieren. Genauere Informationen dazu findest du hier:
 
-[Gameserver Login Token](https://zap-hosting.com/guides/docs/de/source_gsltoken/)
+[Gameserver Login Token](source-gsltoken.md)
 
 
 
@@ -84,7 +94,7 @@ Pingboost ist eine Methode, welche da Spielgefühl durch verschiedene Methoden v
 
 
 
-## Allgemeine Konfiguration (server.cfg)
+### Konfiguration über die server.cfg
 
 In der **server.cfg** kannst du Einstellungen bezüglich Servername, Rcon Passwort, Server Passwort einstellen. 
 
@@ -123,13 +133,13 @@ Gewisse Befehle sind geschützt und können daher nur benutzt werden, wenn Cheat
 
 
 
-## Gamemode spezifische Konfiguration (Competitive, Casual, Custom, ...)
+## Gamemode spezifische Konfiguration
 
-Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Config-Datei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
+Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Konfigurationsdatei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
 
 
 
-### Bot Befehle
+#### Bot Befehle
 
 
 
@@ -159,7 +169,7 @@ Mit diesem Befehl wird der Modus definiert, mit dem die Anzahl der Bots gesteuer
 
 
 
-### Geld Befehle
+#### Geld Befehle
 
 **cash_player_bomb_defused**
 Mit diesem Befehl wird festgelegt, wie viel Geld ein Spieler für das Entschärfen einer Bombe verdient. Dabei kann nicht mehr als der maximale Geldbetrag gegeben werden, den Du auf dem Server erhalten kannst.
@@ -276,7 +286,7 @@ Mit diesem Befehl wird festgelegt, wie viel Geld die Spieler der Counter-Teroris
 
 
 
-### Gameplay Befehle
+#### Gameplay Befehle
 
 
 
@@ -453,7 +463,7 @@ Mit diesem Befehl wird festgelegt, wie viele Granaten ein Spieler insgesamt trag
 
 
 
-## Esport-Ready Konfiguration (ESL Configs)
+### Esport-Ready Konfiguration (ESL Configs)
 
 Wenn der Server aus E-Sport-Zwecken verwendet werden soll, dann lohnt es sich die Configs von der ESL hochzuladen. Diese kannst du über die offizielle Seite der ESL herunterladen: [Download](https://play.eslgaming.com/download/26251762/)
 

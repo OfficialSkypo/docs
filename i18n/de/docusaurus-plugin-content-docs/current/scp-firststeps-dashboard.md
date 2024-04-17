@@ -1,7 +1,7 @@
 ---
 id: scp-firststeps-dashboard
-title: Game XY Dashboard Übersicht
-description: Informationen zum Dashboard eines XY-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: SCP Secret Laboratory Vanilla Dashboard Übersicht
+description: Informationen zum Dashboard eines SCP Secret Laboratory Vanilla Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
 
@@ -9,9 +9,9 @@ sidebar_label: Dashboard
 
 ## Einführung
 
-Du bist an einem **XY-Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **SCP: Secret Laboratory Vanilla Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **XY-Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **SCP: Secret Laboratory Vanilla Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -25,9 +25,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-:::info
-Screenshot einfügen
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/rEzETagrx9im3YS/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -46,7 +44,7 @@ Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und k
 
 
 
-### Statistiken (Optional)
+### Statistiken 
 
 Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
 
@@ -69,19 +67,9 @@ Darüber hinaus kannst du den Schutz anpassen, sofern du eine eigene IP-Adresse 
 
 Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf deine Bedürfnisse abstimmen und somit die Sicherheit deines Servers erhöhen.
 
-:::info
-Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
-:::
+> ⚠️ Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
 
-### Tebex Shop (Optional)
 
-Mit TEBEX hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
-
-TEBEX ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
-
-Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit TEBEX erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
 
 
 ### Log-Dateien
@@ -90,9 +78,7 @@ Tritt ein technisches Problem auf und du bist unsicher über dessen Ursache? Ein
 
 Insbesondere Fehlermeldungen können dabei helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oftmals lassen sich Schwierigkeiten durch einen gezielten Blick in die Log-Dateien aufdecken und beheben. 
 
-:::info
-Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
-:::
+> ⚠️ Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
 
 
 
@@ -108,9 +94,7 @@ Die **Ereignislog** bietet dir einen umfassenden Überblick über sämtliche Akt
 
 Die **Live-Konsole** bietet dir eine Echtzeit-Ansicht aller aktuellen Ereignisse auf deinem Server. Hier kannst du sowohl Informationen zu den Aktivitäten der Spieler als auch mögliche Fehlermeldungen und Systemnachrichten einsehen. Diese Übersicht ermöglicht es dir, einen umfassenden Einblick in das Geschehen auf deinem Server zu erhalten und eventuelle Probleme frühzeitig zu erkennen.
 
-:::info
-Screenshot einfügen
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/bDqw5G9fLi5mxAg/preview)
 
 Zusätzlich zur Beobachtung der Ereignisse kannst du in der **Live-Konsole** auch direkt Befehle an den Server senden. Dies kann nützlich sein, um Einstellungen anzupassen, bestimmte Aktionen auszuführen oder um schnell auf auftretende Probleme zu reagieren.
 
@@ -136,39 +120,20 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
-
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen                       | Seite                                                        |
-| --------------------------------- | ------------------------------------------------------------ |
-| Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
-| Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
-| Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am XX.XX.XXXX</p>
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Plugins**, **Steam Workshop** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
 ### Einstellungen
 
 Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
-
-:::info
-Screenshot einfügen
-:::
-
-Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
-
-- Platzhalter:
-- Platzhalter:
-- Platzhalter:
 
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 
@@ -180,9 +145,7 @@ Der Editor für die Config-Dateien ermöglicht dir, die Konfigurationsdateien di
 
 Durch die Verwendung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die eine umfassende Kontrolle über ihre Servereinstellungen wünschen und genau wissen, welche Änderungen sie vornehmen möchten.
 
-:::info
-Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionenwerte von der Einstellungsseite herangezogen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, solltest du zuerst die betreffenden Optionen auf der Einstellungsseite deaktivieren.
-:::
+> ⚠️ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionenwerte von der Einstellungsseite herangezogen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, solltest du zuerst die betreffenden Optionen auf der Einstellungsseite deaktivieren.
 
 
 
@@ -190,7 +153,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/2mof3kBgrMXxXAj/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
 
 
@@ -198,37 +161,9 @@ Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bes
 
 Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Spielservers einzusehen und zu verwalten. Hier kannst du jederzeit auf die neueste Version aktualisieren oder automatische Updates aktivieren, um sicherzustellen, dass dein Server immer auf dem neuesten Stand ist.
 
-:::info
-Screenshot einfügen
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZJpECn6qFDE96E5/preview)
 
 Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um dich über Aktualisierungen zu informieren und sicherzustellen, dass du immer auf dem neuesten Stand bist. 
-
-
-
-### Resources/Plugins (Optional)
-
-Für dieses Spiel bieten wir unter **Resources/Plugins** die Möglichkeit, bekannte und beliebte Resources/Plugins mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen/Plugins installiert, aktiviert und stehen dir zur Verfügung.
-
-:::info
-Screenshot einfügen
-:::
-
-Durch die Nutzung dieser Funktion kannst du deinen Gameserver schnell und unkompliziert Inhalten erweitern, ohne selbständig Anpassungen vornehmen zu müssen. Dies spart Zeit und reduziert das Risiko von Fehlern oder Kompatibilitätsproblemen.
-
-
-
-### Steam Workshop (Optional)
-
-Wenn du auf der Suche nach neuen Inhalten bist, um dein Spielerlebnis zu erweitern, bietet der Steam Workshop eine breite Auswahl an Mods und Maps für eine Vielzahl von Spielen. Um eine Sammlung von Mods oder Maps in deinem Spiel zu verwenden, musst du lediglich die Steam Workshop Collection ID eingeben. Anschließend musst du deinen Server neu starten, um sicherzustellen, dass die neuen Inhalte geladen werden. Sobald dies erledigt ist, kannst du die neuen Inhalte auf deinem Server verwenden und deinem Spiel mehr Abwechslung und Spaß hinzufügen.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
-
-
-
-### SaveGame Manager (Optional)
-
-
 
 
 

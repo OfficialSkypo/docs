@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 Du bist an einem **Satisfactory** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Satisfactory** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Satisfactory** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -44,7 +44,7 @@ Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und k
 
 
 
-### Statistiken (Optional)
+### Statistiken
 
 Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
 
@@ -71,7 +71,7 @@ Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf de
 Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
 :::
 
-### Tebex Shop (Optional)
+### Tebex Shop 
 
 Mit TEBEX hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
 
@@ -132,16 +132,16 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
 
 | Anleitungen            | Seite                                                        |
 | ---------------------- | ------------------------------------------------------------ |
-| Zum Server verbinden   | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_connect_experimental) |
-| SaveGame-Manager       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_savegame) |
-| Experimentelle Version | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_switchexperimental) |
-| Konsolen-Befehle       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_commands) |
+| Zum Server verbinden   | [Anleitung aufrufen](satisfactory-connect-experimental.md) |
+| SaveGame-Manager       | [Anleitung aufrufen](satisfactory-savegame.md) |
+| Experimentelle Version | [Anleitung aufrufen](satisfactory-switchexperimental.md) |
+| Konsolen-Befehle       | [Anleitung aufrufen](satisfactory-commands.md) |
 <p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 01.05.2023</p>
 
 
@@ -159,19 +159,13 @@ Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungs
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y7RxL7B6M4yHk43/preview)
 
-Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
-
-- Platzhalter:
-- Platzhalter:
-- Platzhalter:
-
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 
 
 
 ### Configs
 
-Der Editor für die Config-Dateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
+Der Editor für die Konfigurationsdateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
 
 Durch die Verwendung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die eine umfassende Kontrolle über ihre Servereinstellungen wünschen und genau wissen, welche Änderungen sie vornehmen möchten.
 
@@ -183,7 +177,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXaz2sTDF3LGcrQ/preview)
 
@@ -199,7 +193,7 @@ Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automat
 
 
 
-### SaveGame Manager (Optional)
+### SaveGame Manager 
 
 
 Mit dem Savegame-Manager kannst du spielend leicht Spielstände sichern, wiederherstellen und importieren. Diese Option erleichtert die Verwaltung deiner Savegames und hilft dir dabei, den Überblick über deinen Fortschritt zu behalten.
@@ -228,7 +222,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### FTP-Browser
 
-Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) weiterhelfen.
+Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXjfGiX48Yqzy75/preview)
 

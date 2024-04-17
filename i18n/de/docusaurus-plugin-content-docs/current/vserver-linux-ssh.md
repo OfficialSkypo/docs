@@ -1,11 +1,13 @@
 ---
 id: vserver-linux-ssh
-title: Erstzugriff auf Linux Server mit SSH
-description: Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
+title: Erstzugriff mit SSH
+description: Informationen, wie der Erstzugriff mit SSH auf deinen Server von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (SSH)
 ---
 
-### SSH-Verbindung
+
+
+## Einführung
 
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
 
@@ -23,7 +25,7 @@ Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungs
 
 ## IP-Adresse & Zugang
 
-Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Konfigurationsfenster wird hierbei beim **Hostname** die IP-Adresse des Server und der SSH Port 22 eingetragen. Im Anschluss kann der Verbindungsaufbau über den **Open** Button gestartet werden.
+Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Konfigurationsfenster wird hierbei beim **Hostname** die IP-Adresse des Servers und der SSH Port 22 eingetragen. Im Anschluss kann der Verbindungsaufbau über den **Open** Button gestartet werden.
 
 
 
@@ -42,12 +44,12 @@ Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit
 
 
 :::info
-Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes mal erfolgen soll. 
+Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes Mal erfolgen soll. 
 :::
 
  
 
-Daraufhin öffnet sich die SSH-Konsole in der nach einem **Benutzernamen** und **Kennwort** gefragt wird. Der Benutzername lautet "**root**". Das Passwort ist im Webinterface unter "**Zugang & Sicherheit**" zu finden beziehungsweise kann dort gesetzt werden.
+Daraufhin öffnet sich die SSH-Konsole, in der nach einem **Benutzernamen** und **Kennwort** gefragt wird. Der Benutzername lautet "**root**". Das Passwort ist im Webinterface unter "**Zugang & Sicherheit**" zu finden beziehungsweise kann dort gesetzt werden.
 
 
 
@@ -70,7 +72,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 | useradd |          Neuen Benutzer erstellen          | useradd [options] [username] |
 | usermod |      Vorhandenen Benutzer bearbeiten       | usermod [options] [username] |
 | userdel |        Vorhandenen Benutzer löschen        | userdel [options] [username] |
-| passwd  | Passwort eines bestehenden Benutzer ändern |      passwd [username]       |
+| passwd  | Passwort eines bestehenden Benutzers ändern |      passwd [username]       |
 
 
 
@@ -86,8 +88,8 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 | killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall [name]                               |
 |   mv    |         Verschiebt Dateien in ein anderes Verzeichnis        | mv sourcepath newPath                        |
 |  mkdir  |               Erstellt einen neuen Ordner                    | mkdir directoryname                          |
-| service |    Dienst starten, stoppen, neustarten und Status prüfen     | service DienstName start/stop/restart/status |
-| reboot  |                      System neustarten                       | reboot                                       |
+| service |    Dienst starten, stoppen, neu starten und Status prüfen     | service DienstName start/stop/restart/status |
+| reboot  |                      System neu starten                       | reboot                                       |
 
 
 

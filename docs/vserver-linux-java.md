@@ -1,13 +1,13 @@
 ---
 id: vserver-linux-java
-title: VPS Installation of Java
-description: Information on how to install Java on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: Installation of Java
+description: Information on how to install Java on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Java
 ---
 
 
 
-## What is Java?
+## Introduction
 
 Java is a very popular programming language that is used worldwide for numerous programs and services. To run these programs based on Java it is absolutely necessary that Java is installed on the system. In the following you will learn how to install Java on your system for the offered Linux operating systems. 
 
@@ -15,7 +15,7 @@ Java is a very popular programming language that is used worldwide for numerous 
 
 ## Preparation
 
-Before starting the actual Java installation, it is important to make sure that the system is up to date. For this we connect to the server via SSH. If you don't know what SSH is and how to use it, please have a look at the following guide: [Initial access (SSH)](https://zap-hosting.com/guides/docs/de/vserver_linux_ssh/)
+Before starting the actual Java installation, it is important to make sure that the system is up to date. For this we connect to the server via SSH. If you don't know what SSH is and how to use it, please have a look at the following guide: [Initial access (SSH)](vserver-linux-ssh.md)
 
 Once there, the system can be updated with the following command, depending on the operating system:
 

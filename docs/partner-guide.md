@@ -8,7 +8,7 @@ sidebar_label: Partner Guide
 ## Welcome to the partner program
 Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program!** From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 
 
-But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our requirements for our partners.
+But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our prerequisites for our partners.
 
 ## Partnered, what now?
 In the first discussions with your partner manager we will clarify what your current needs are and which products we will provide you with free of charge so that you can adequately advertise for us. Of course, we make sure that there is a healthy balance between your reach and the value of the products we provide. Although we provide them free of charge, they still have to be maintained by our technicians and the hardware has to be kept in good condition.
@@ -96,6 +96,6 @@ We keep an eye on our partners and contact them at irregular intervals through t
 
 Should you be inactive for a longer period of time for health or other important reasons, please inform your Partner Manager so that he can take this into account. 
 
-Unfortunately, we will **no longer show any understanding for this, however, because of repeated delays in the implementation of agreements, violation of discussed behaviours, creating a negative image that could influence the image of ZAP hosting, unsolicited advertising of a competitor with the same topic and unannounced inactivity over a long period of time. In these cases we will contact you personally, discuss the situation and **eventually end our sponsorship with immediate effect**.
+Unfortunately, we will **no longer show any understanding for this, however, because of repeated delays in the implementation of agreements, violation of discussed behaviours, creating a negative image that could influence the image of ZAP-Hosting, unsolicited advertising of a competitor with the same topic and unannounced inactivity over a long period of time. In these cases we will contact you personally, discuss the situation and **eventually end our sponsorship with immediate effect**.
 
 If you intend to leave the sponsoring program of ZAP, please contact your partner manager. He will guide you through the steps and give you the opportunity to download all relevant data of your products. If this is done we will take away the partner rank and the access to the partner menu from your account. Sales generated up to this point via the **Affiliate/"Refer a Friend"-function** remain unaffected and can still be used.

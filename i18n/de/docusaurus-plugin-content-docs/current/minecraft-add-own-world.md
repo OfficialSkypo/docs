@@ -5,25 +5,14 @@ description: Informationen, wie du eine eigene Welt zu deinem Minecraft-Server v
 sidebar_label: Eigene Welt hinzufügen
 ---
 
-Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-
-
-:::tip VIDEO ZUM THEMA
-
-Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung!
-
-
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/5tII3C9yO3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-
-
-
-Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://zap-hosting.com/guides/docs/de/minecraft_add_own_world/)
+## Einführung
+Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles, was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](minecraft-add-own-world.md)
 
 ![image](https://user-images.githubusercontent.com/13604413/159177625-7973671f-19a8-4867-ad10-e41bf04a4ab3.png)
+
+<YouTube videoId="5tII3C9yO3g" title="How to upload custom MAPS on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 
@@ -41,5 +30,5 @@ Jetzt muss die neu hochgeladene Welt nur noch in der **server.properties** Confi
 ![image](https://user-images.githubusercontent.com/13604413/159177632-6d0d181d-ce56-4257-886b-e1e75367abcd.png)
 
 
-Nach erneuten starten des Servers sollte nun die neue Welt verwendet werden. Viel Spaß auf deiner neuen Welt! 🙂
+Nach erneuten Starten des Servers sollte jetzt die neue Welt verwendet werden. Viel Spaß auf deiner neuen Welt! 🙂
 
